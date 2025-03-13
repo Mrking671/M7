@@ -31,7 +31,6 @@ COPY telegram-bot ./telegram-bot
 
 # Copy PM2 config and env files
 COPY ecosystem.config.js .
-COPY .env ./
 
 # Expose ports
 EXPOSE 3000 3001
