@@ -1,4 +1,7 @@
 module.exports = {
   reactStrictMode: true,
-  output: 'standalone'
+  output: 'standalone', // For Docker optimization
+  images: {
+    domains: ['m.media-amazon.com'], // Allow IMDb poster images
+  }
 };
